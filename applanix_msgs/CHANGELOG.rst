@@ -2,6 +2,9 @@
 Changelog for package applanix_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2014-09-18)
+------------------
+
 0.0.2 (2014-09-16)
 ------------------
 * Added help output to mapping in applanix_msgs and an error code on invalid arguments. This prevents bad builds from sneaking through.
