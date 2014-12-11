@@ -1,3 +1,27 @@
+## applanix_driver (hydro) - 0.0.6-0
+
+The packages in the `applanix_driver` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --ros-distro hydro applanix_driver` on `Thu, 11 Dec 2014 17:31:23 -0000`
+
+These packages were released:
+- `applanix_bridge`
+- `applanix_driver`
+- `applanix_msgs`
+
+Version of package(s) in repository `applanix_driver`:
+- upstream repository: https://github.com/clearpathrobotics/applanix_driver.git
+- release repository: https://github.com/clearpath-gbp/applanix_driver-release.git
+- rosdistro version: `0.0.5-0`
+- old version: `0.0.5-0`
+- new version: `0.0.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.33`
+
+
 ## applanix_driver (hydro) - 0.0.5-0
 
 The packages in the `applanix_driver` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro applanix_driver` on `Mon, 17 Nov 2014 16:02:53 -0000`
