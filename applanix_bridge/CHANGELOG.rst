@@ -2,8 +2,17 @@
 Changelog for package applanix_bridge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.5 (2014-11-17)
+0.0.6 (2014-12-10)
 ------------------
+* Gams param max_heading_error_rms has to be assigned to 3.0 degrees default and cannot be zero.
+* Contributors: Vaibhav Kumar Mehta
+
+0.0.5 (2014-12-09)
+------------------
+* Typo in the imu angular velocity z component is fixed. All the required NED (/reference or /vehicle for Applanix) to ENU (/base_footprint or /base_link in ROS) frame conversions are applied to get correct Pose and twist data.
+* gams params, dmi params and some geometry params added to be configured correctly. some sample values are provided in the example.launch also added in this commit
+* launch file updated as auxiliary gnss to reference frame lever is not neeeded.
+* updated the launch file with correct installation parameters for applanix
 * Origin now includes the z dimension or altitude so that the odometry msgs are w.r.t. the current surface and not the sea level. quaternion assignment in tf broadcaster had a bug which is fixed now.
 * Fixing typo in publisher.py, we Transfrom != Transform
 * Contributors: Vaibhav Kumar Mehta
