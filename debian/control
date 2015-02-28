@@ -1,0 +1,12 @@
+Source: ros-hydro-applanix-driver
+Section: misc
+Priority: extra
+Maintainer: Kareem Shehata <kshehata@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://wiki.ros.org/applanix_driver
+Standards-Version: 3.9.2
+
+Package: ros-hydro-applanix-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-applanix-bridge
+Description: Comprehensive ROS interface to Applanix POS LV products
