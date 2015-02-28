@@ -19,5 +19,5 @@ tracks:
     release_tag: :{version}
     ros_distro: hydro
     vcs_type: git
-    vcs_uri: https://github.com/clearpathrobotics/applanix_driver.git
+    vcs_uri: git@github.com:clearpathrobotics/applanix_driver.git
     version: :{auto}
